@@ -11,6 +11,7 @@
   "dependencies": {
     "fs-extra": "^1.0.0",
     "glob": "^7.1.1",
-    "handlebars": "^4.0.5"
+    "handlebars": "^4.0.5",
+    "handlebars-helpers": "^0.8.2"
   }
 }
