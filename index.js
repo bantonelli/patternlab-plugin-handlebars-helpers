@@ -1,6 +1,6 @@
 'use strict';
 
-const pluginName = 'plugin-node-handlebars-helper-listitems';
+const pluginName = 'plugin-node-handlebars-helpers';
 
 const fs = require('fs-extra'),
   glob = require('glob'),
