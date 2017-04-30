@@ -14,11 +14,13 @@
 //   });
 // }
 var helpers = require('handlebars-helpers');
+var layouts = require('handlebars-layouts');
 
 function registerHelper(patternlab, Handlebars) {
   helpers({
     handlebars: Handlebars
   });
+  layouts.register(Handlebars);
 }
 
 
