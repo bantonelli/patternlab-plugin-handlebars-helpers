@@ -21,6 +21,9 @@ function registerHelper(patternlab, Handlebars) {
     handlebars: Handlebars
   });
   layouts.register(Handlebars);
+  Handlebars.registerHelper('json', function (content) {
+      return JSON.stringify(content);
+  });
 }
 
 
